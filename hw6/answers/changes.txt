@@ -1,0 +1,11 @@
+1. I switch the return type in methods ListNode and ListEnds from Set to List because list has indexes and is
+   more convenient to use.
+   
+2. I add a compareTo method and let Node and Edge implement Comparable interface because we will use it in the
+   MarvelPaths.
+   
+3. I sort the list that is returned in the listNodes and listEnds methods in the graph. The reason is that we need
+   them in sorted order to be used.
+   
+4: I improve my addEdge function by search for edges and nodes using the contains instead of checking 
+   all the edges and nodes.

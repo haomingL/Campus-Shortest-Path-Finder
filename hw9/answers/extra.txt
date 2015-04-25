@@ -1,0 +1,3 @@
+1. As the window is resized, map shrinks or grows to fit the window.
+
+2. The image of the campus map is put into a scroll panel

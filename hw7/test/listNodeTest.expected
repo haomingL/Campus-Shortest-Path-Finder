@@ -1,0 +1,4 @@
+# This test tests the listNode method
+loaded graph people
+
+people contains: Chenfan-Sun Haoming-Liu Juan-Cai Wenjun-Zhou Xinyi-Xu Yingkai-Wang Youying-Lin

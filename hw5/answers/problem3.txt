@@ -1,0 +1,15 @@
+In hw5/answers/problem3.txt, write a few paragraphs documentaiton and explaining your testing 
+strategy.
+
+1. Black-box testing: I wrote some of the tests according to the spec which is before I wrote the actuall
+codes to implement each functions.
+
+2. Boundry testing: In the Graph test, I create some empty graphs and test whether my class handle them
+well. I also did so for my Node and Edge test.
+
+3. Clear-box testing: I test all the cases( I think ) needed to cover all the codes I have. For example, 
+in the graph test, I wrote empty graph, single node graph, single edge graph and multi nodes and multi 
+edges graphs. I also test whether the function throws exception correctly.
+
+4. Glass-box testing: After I implement all the classes, I also add some more test cases to the test class.
+Also, when I add some more functionality to the class, I remember to add more tests to test these functions.

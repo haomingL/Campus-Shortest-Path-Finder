@@ -1,0 +1,5 @@
+# This test tests the appropriate behavior of path from one node to itself
+loaded graph people
+
+path from Haoming-Liu to Haoming-Liu:
+total cost: 0.000

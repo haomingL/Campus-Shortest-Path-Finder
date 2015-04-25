@@ -1,0 +1,7 @@
+LoadGraph people people.tsv
+FindPath people Xinyi-Xu Haoming-Liu
+FindPath people Haoming-Liu Chenfan-Sun
+FindPath people Youying-Lin Chenfan-Sun
+FindPath people Haoming-Liu Haoming-Liu
+FindPath people Shuo-Yin Haoming-Liu
+FindPath people Haoming-Liu Ziqiu-Zhang

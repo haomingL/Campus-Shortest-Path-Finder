@@ -1,0 +1,9 @@
+Model:
+Node, Edge, Graph classes from hw5
+CampusPathsModel, Building, Position classes from hw8
+
+Controller:
+main method that gets info from model and notify views in CampusPaths from hw8
+
+View:
+all the print methods in CampusPaths from hw8

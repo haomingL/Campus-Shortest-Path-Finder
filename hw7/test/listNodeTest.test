@@ -1,0 +1,4 @@
+# This test tests the listNode method
+LoadGraph people people.tsv
+
+ListNodes people

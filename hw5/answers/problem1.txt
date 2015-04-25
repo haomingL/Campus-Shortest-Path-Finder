@@ -1,0 +1,26 @@
+(a) IntQueue1:
+	AF: For a given IntQueue1 q1, a linked-list entries stores all the integers in the
+		queue. The first element in the list is the least recently added one and the last
+		element in the list is the last element added to the queue.
+	RI: The linked-list entries can't not be null
+	
+	IntQueue2:
+	AF: For a given IntQueue2 q2, a circular array stores all the integers in the queue.
+		The front stores the index of the least recently added element and the size keeps
+		track of the size of the queue.
+	RI: The array entries cannot be null. The size cannot be negative and cannot be greater
+	    than entries.length. The front cannot be less than 0 or greater than entries.length - 1.
+	    
+(b) a, d, g
+	b, h
+	c, f
+	e
+
+(c) 1. No. Because the integer returned cannot be changed or to be used to change the values
+		   in the class.
+	2. Yes. It returns the pointer to the array of String. So client might change the array with
+			this pointer.
+	3. No. The function is made private so the client cannot call this function directly.
+	4. No. String is not mutable so it cannot be changed through any action of the client.
+	5. Yes. The returned iterator might have a remove function which changes the inside state.
+	6. No. The constructor initialize the object and don't expose the inside codes.

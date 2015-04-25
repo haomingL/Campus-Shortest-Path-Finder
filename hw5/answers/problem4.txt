@@ -1,0 +1,17 @@
+In hw5/answers/problem4.txt, write a few paragraphs briefly describe your representation. 
+For at least the three representations above and your representation (if it is not one of the 
+ones above), explain an advantage of that representation. Explain why you chose the representation 
+you did.
+
+My representation: I create two classes, edges and nodes to store data and relationships between nodes.
+Then I create a graph class which stores the information of edges which is classified by its start node. The
+advantage over other implementations is that I can adjust my classes (e.g. add a field to Node class) to 
+adjust my classes to different requests from clients. In other words, it is flexible to improve or change.
+The runtime to find node or edge is O(1), to removeNode is O(E), to removeEdge is O(1), and to find all the
+nodes each node points to is also O(1).
+
+collection of edges: This is easy to implement. It is quick to add nodes and edges.
+
+adjacency list: It is fast to add edges and nodes.
+
+adjacency matrix: It is fast to find neighbors, add edge and add nodes.
